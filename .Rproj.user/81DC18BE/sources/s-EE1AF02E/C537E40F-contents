@@ -1,0 +1,33 @@
+---
+title: "Project 3"
+author: "Marc C"
+date: "December 11, 2019"
+output: ioslides_presentation
+---
+
+## Instructions
+
+Create a web page presentation using R Markdown that features a plot created with Plotly. Host your webpage on either GitHub Pages, RPubs, or NeoCities. Your webpage must contain the date that you created the document, and it must contain a plot created with Plotly. We would love to see you show off your creativity!
+
+
+## Data
+
+The data of the Major European stock indices from 1991-1998 will be used.
+
+```{r, echo=TRUE, message=FALSE}
+library(plotly)
+library(tidyr)
+library(dplyr)
+data("EuStockMarkets")
+stocks <- as.data.frame(EuStockMarkets) %>%
+  gather(index, price) %>%
+  mutate(time = rep(time(EuStockMarkets), 4))
+```
+
+## Plot
+
+Plot the data.
+
+```{r, echo=TRUE, message=FALSE}
+plot_ly(stocks, x = ~time, y = ~price, color = ~index, mode = "lines")
+```

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576502158178.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4FB9A9D8",
+    "lastKnownWriteTime" : 1576506828,
+    "last_content_update" : 1576506828428,
+    "path" : "~/Documents/GitHub/Project4/Project4/ui.R",
+    "project_path" : "Project4/ui.R",
+    "properties" : {
+        "cursorPosition" : "34,20",
+        "scrollLine" : "25"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

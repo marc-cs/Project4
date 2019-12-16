@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576505891300.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E341F2C9",
+    "lastKnownWriteTime" : 1576506976,
+    "last_content_update" : 1576506976653,
+    "path" : "~/Documents/GitHub/Project4/Presentation.Rpres",
+    "project_path" : "Presentation.Rpres",
+    "properties" : {
+        "cursorPosition" : "15,7",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_presentation"
+}

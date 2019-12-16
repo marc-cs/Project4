@@ -1,0 +1,43 @@
+Pitch Presentation
+========================================================
+author: Marc C
+date: December 16, 2019
+autosize: true
+
+Introduction
+========================================================
+
+This application predicts the price of diamonds based on its features:
+- Number of Carats
+- Cut
+- Clarity
+- Color
+
+Dataset
+========================================================
+
+The "diamonds" dataset of the ggplot2 R package is used.
+
+The plot shows  a summary of the data:
+
+```{r}
+library(ggplot2)
+data(diamonds)
+summary(diamonds)
+```
+
+Plot with the summary of the dataset
+========================================================
+
+```{r, echo=FALSE}
+plot(diamonds[,c(1:4,7)])
+```
+
+App url
+========================================================
+
+The app is published in:
+
+https://marccs.shinyapps.io/Project4/
+
+

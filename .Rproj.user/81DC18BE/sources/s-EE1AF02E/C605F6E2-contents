@@ -1,0 +1,22 @@
+---
+title: "Project 4"
+author: "Marc C"
+date: "December 16, 2019"
+output: ioslides_presentation
+---
+
+## Introduction
+
+This application predicts the price of diamonds based on its features:
+* Number of Carats
+* Cut
+* Clarity
+* Color
+
+## Dataset
+
+The "diamonds" dataset of the ggplot2 R package is used.
+
+The plot shows  a summary of the data:
+
+
